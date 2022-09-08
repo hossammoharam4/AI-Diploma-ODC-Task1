@@ -1,0 +1,53 @@
+Disadvantages of OOP:
+
+1. The length of the programmes developed using OOP language is much larger than the procedural approach. Since the programme becomes larger in size,
+   it requires more time to be executed that leads to slower execution of the programme.
+
+2. We can not apply OOP everywhere as it is not a universal language. It is applied only when it is required.  It is not suitable for all types of problems.
+   Programmers need to have brilliant designing skill and programming skill along with proper planning because using OOP is little bit tricky.
+
+3. OOPs take time to get used to it.  The thought process involved in object-oriented programming may not be natural for some people.
+
+4. Everything is treated as object in OOP so before applying it we need to have excellent thinking in terms of objects
+
+
+Difference between Multicore and Multithreading:
+
+1. Multicore refers to a computer or processor that has more than one logical CPU core, and that can physically execute multiple instructions at the same time.
+   A computer's "core count" is the total number of cores the computer has: computers may have multiple processors, each of which might have multiple cores;
+   the core count is the total number of cores on all of the processors.
+
+2. Multithreading refers to a program that can take advantage of a multicore computer by running on more than one core at the same time.
+   In general, twice as many cores equals twice as much computing power (for programs that support multithreading) though some problems are limited by factors other than
+   CPU usage; these problems will not experience gains that are as dramatic from multithreading.
+
+It's important to note that performance is not the only reason programs use many threads.
+
+Tabulation:
+
+Tabulation is similar in the sense that it builds up a cache, but the approach is different. A tabulation algorithm focuses on filling the entries of the cache
+, until the target value has been reached.
+
+While DP problems, such as the fibonacci computation, are recursive in nature, a tabulation implementation is always iterative.
+
+What is a clean code with example:
+
+Avoid Disinformation
+Be careful about words that mean something specific. Do not refer to a grouping of accounts as accountList unless its type is actually a List
+. The word has a specific meaning and it may lead to false conclusions.
+
+Even if the type is a list, accounts is a simpler and better name.
+
+Bad:
+
+var accountList = [];
+Good:
+
+var accounts = []
+
+
+which library is used for api in python?
+
+In order to work with APIs in Python, we need tools that will make those requests. In Python, the most common library for making requests
+ and working with APIs is the requests library.
+ The requests library isn’t part of the standard Python library, so you’ll need to install it to get started.
